@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    width: 1000px;
+    
+
+}
+
+
+.laughter {
+background-color: red;
+color: #fff;
+text-align: center;
+
+}
+main img {
+    margin: 0 auto;
+    width: 1000px;
+}
+.photos img {
+    width: 100px;
+    border: 2px dashed black; 
+}
+.photos {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color:black;
+    color: #fff;
+}
+
+
+
+
+
