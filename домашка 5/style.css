@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: small;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121116;
+    color: #f0ecee;
+  }
+  
+  .logo {
+    display: block;
+    margin: 120px 0 55px;
+  }
+  
+  .logo-text {
+    padding-bottom: 20px;
+    width: 230px;
+    border-bottom: 1px solid white ;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .submenu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .submenu-container a{
+    display: block;
+    margin: 20px 30px;
+  }
+  
+  .text-time {
+    margin: 90px 0 40px;
+    font-size: 15px;
+  }
+  
+  .text-time span{
+    color: #19c8fa;
+  }
