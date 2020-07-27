@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(Raleway-Italic-VariableFont_wght.ttf) 
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Light.ttf);
+    font-weight: lighter;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    color: #333333;
+    background-color: #fdde7e;
+    display: flex;
+    padding: 80px 30px ;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Miso", sans-serif;
+    background-color: white;
+    padding: 25px 0;
+  }
+  
+  .price {
+    color: #02995b;
+    font-size: 70px;
+    text-align: center;
+  }
+  
+  .item > * {
+    margin: 10px 0;
+  }
+  
+  .item > h1 {
+    font-size: 56px;
+    font-weight: 500;
+  }
+  
+  .item > p {
+    font-family: "Lato";
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 26px;
+    width: 160px;
+    letter-spacing: 0.025rem;
+    text-align: center;
+  }
+  
+  .item:hover {
+    transform: scaleY(1.1);
+  }
